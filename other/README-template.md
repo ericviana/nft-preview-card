@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://nft-preview-card-live.vercel.app/)
+- Live Site: [Take a look with you own eyes](https://nft-preview-card-live.vercel.app/)
 
 ## Author
 
