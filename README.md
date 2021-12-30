@@ -3,6 +3,8 @@
 
 This is a solution to the NFT preview card component challenge.
 
+![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
+
 ## Table of contents
 
 - [Overview](#overview)
