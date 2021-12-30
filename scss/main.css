@@ -1,0 +1,191 @@
+*,
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+::-moz-selection {
+  color: white;
+  background: #00fff78c;
+}
+
+::selection {
+  color: white;
+  background: #00fff78c;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0d192b;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.card {
+  background-color: #14253d;
+  width: 37.5rem;
+  height: auto;
+  padding: 2.6rem;
+  border-radius: 1.8rem;
+}
+
+.card .image-container {
+  position: relative;
+}
+
+.card .image-container .image {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+.card .image-container .image:hover {
+  cursor: pointer;
+}
+
+.card .image-container .hover-state {
+  position: absolute;
+  top: 0;
+  border-radius: 1.2rem;
+  background-color: #00fff78c;
+  width: 100%;
+  height: calc(100% - 4px);
+  z-index: 999;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card .image-container .hover-state:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.card .image-container .hover-state .view {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.card .text-container {
+  margin-top: 3.3rem;
+}
+
+.card .text-container h1 {
+  color: white;
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.card .text-container h1:hover {
+  color: #00fff7;
+  cursor: pointer;
+  -webkit-transition: ease-out .3s;
+  transition: ease-out .3s;
+}
+
+.card .text-container .description {
+  color: #8bacda;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.card .text-container .price-and-date {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #8bacda;
+  margin-bottom: 1.8rem;
+}
+
+.card .text-container .price-and-date ul, .card .text-container .price-and-date li {
+  list-style: none;
+  font-size: 1.8rem;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .text-container .price-and-date ul:first-child, .card .text-container .price-and-date li:first-child {
+  color: #00fff7;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.card .text-container .price-and-date .icon {
+  margin-right: 1rem;
+}
+
+hr {
+  border: 0.1rem solid #2f415b;
+}
+
+.creation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.8rem;
+}
+
+.creation .avatar {
+  width: 3.8rem;
+  border: 0.26rem solid white;
+  border-radius: 100px;
+  margin-right: 1.8rem;
+}
+
+.creation .author {
+  color: #8bacda;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.creation .author span {
+  color: white;
+}
+
+.creation .author span:hover {
+  color: #00fff7;
+  cursor: pointer;
+  -webkit-transition: ease-out .3s;
+  transition: ease-out .3s;
+}
+
+h1:hover {
+  color: #00fff7;
+}
+/*# sourceMappingURL=main.css.map */

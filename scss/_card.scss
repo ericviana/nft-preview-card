@@ -1,0 +1,143 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: $main-bg;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.card {
+  background-color: $card-bg;
+  width: 37.5rem;
+  height: auto;
+  padding: 2.6rem;
+  border-radius: 1.8rem;
+
+  .image-container {
+    position: relative;
+
+    .image {
+      width: 100%;
+      border-radius: 1.2rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .hover-state {
+      position: absolute;
+      top: 0;
+      border-radius: 1.2rem;
+      background-color: #00fff78c;
+      width: 100%;
+      height: calc(100% - 4px);
+      z-index: 999;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+
+        &:hover {
+          opacity: 1;
+          cursor: pointer;
+        }
+
+        .view {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        }
+
+    }
+
+  }
+
+  .text-container {
+    margin-top: 3.3rem;
+
+    h1 {
+      color: $white;
+      font-size: 2.6rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-bottom: 2rem;
+
+      &:hover{
+        color: $cyan;
+        cursor: pointer;
+        transition: ease-out .3s;
+      }
+    }
+
+    .description {
+      color: $soft-blue;
+      font-size: 1.8rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+    }
+
+    .price-and-date {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $soft-blue;
+      margin-bottom: 1.8rem;
+
+      ul, li {
+        list-style: none;
+        font-size: 1.8rem;
+        font-weight: 400;
+
+        display: flex;
+        align-items: center;
+
+        &:first-child {
+          color: $cyan;
+          text-transform: uppercase;
+          font-weight: 400;
+        }
+      }
+
+      .icon {
+        margin-right: 1rem;
+      }
+
+    }
+  }
+  
+}
+
+hr {
+  border: .1rem solid $line;
+}
+
+.creation {
+  display: flex;
+  align-items: center;
+  margin-top: 1.8rem;
+
+  .avatar {
+    width: 3.8rem;
+    border: .26rem solid $white ;
+    border-radius: 100px;
+
+    margin-right: 1.8rem;
+  }
+
+  .author {
+    color: $soft-blue;
+    font-size: 1.8rem;
+    font-weight: 300;
+    span {
+      color: $white;
+
+      &:hover {
+        color: $cyan;
+        cursor: pointer;
+        transition: ease-out .3s;
+      }
+
+    }
+  }
+}
