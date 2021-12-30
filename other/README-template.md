@@ -11,6 +11,8 @@ This is a solution to the NFT preview card component challenge.
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
+   - [Website](#author)
+   - [Linkedin](#author)
 
 ## Overview
 
