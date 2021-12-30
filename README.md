@@ -1,6 +1,3 @@
-![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
-# NFT preview card component solution
-
 This is a solution to the NFT preview card component challenge.
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
