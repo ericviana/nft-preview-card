@@ -31,9 +31,3 @@ The designs were created to the following widths:
 
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 300, 400, 600
-
-
-<div class="attribution">
-Coded by
-<a target="_blank" href="https://www.linkedin.com/in/geteric/">Eric Viana</a>.
-</div>
