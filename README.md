@@ -1,4 +1,4 @@
-# This is a solution to the NFT preview card component challenge.
+# NFT Preview Card Component
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
