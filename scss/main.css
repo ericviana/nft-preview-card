@@ -38,6 +38,8 @@ body {
 }
 
 .card {
+    -webkit-animation: moveInBottom 1s ease-in-out;
+          animation: moveInBottom 1s ease-in-out;
   background-color: #14253d;
   width: 37.5rem;
   height: auto;
