@@ -2,18 +2,6 @@
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-   - [Website](#author)
-   - [Linkedin](#author)
-
 ## Overview
 
 ### The challenge
